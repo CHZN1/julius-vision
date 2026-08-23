@@ -1,0 +1,37 @@
+{
+  "n": 27971,
+  "classes": [
+    "neutral",
+    "happiness",
+    "surprise",
+    "sadness",
+    "anger",
+    "disgust",
+    "fear"
+  ],
+  "splits": {
+    "Training": 22111,
+    "PublicTest": 2981,
+    "PrivateTest": 2879
+  },
+  "train_counts": {
+    "neutral": 7980,
+    "happiness": 7000,
+    "surprise": 2367,
+    "sadness": 2547,
+    "anger": 1736,
+    "disgust": 76,
+    "fear": 405
+  },
+  "imbalance": 105.0,
+  "labels_changed_pct": 0.3119,
+  "class_weight_sqrt": {
+    "0": 0.6291,
+    "1": 0.6717,
+    "2": 1.1552,
+    "3": 1.1136,
+    "4": 1.3489,
+    "5": 6.4469,
+    "6": 2.7927
+  }
+}

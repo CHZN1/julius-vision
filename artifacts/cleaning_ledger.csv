@@ -1,0 +1,6 @@
+step,removed,remaining,rationale
+A. blank/near-constant,13,35874,no facial information; pure noise for the optimizer
+B. contradictory labels,148,35726,"same image, different label; ground truth unrecoverable"
+C. leaked train copies,649,35077,image also present in a test split; would inflate test accuracy
+D. PublicTest/PrivateTest overlap,43,35034,validation and final test must not share images
+E. within-split duplicates,1058,33976,repeated images silently reweight the loss

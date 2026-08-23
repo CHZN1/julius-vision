@@ -1,0 +1,14 @@
+{
+  "mean_pool": {
+    "acc": 0.5361,
+    "macro_f1": 0.5314
+  },
+  "bilstm": {
+    "acc": 0.5424,
+    "macro_f1": 0.5395
+  },
+  "transformer": {
+    "acc": 0.5521,
+    "macro_f1": 0.5467
+  }
+}

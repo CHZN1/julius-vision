@@ -1,0 +1,18 @@
+{
+  "members": [
+    "VGGFace2_ft",
+    "ArcFace_mlp"
+  ],
+  "scheme": "geometric",
+  "acc": 0.8801,
+  "macro_f1": 0.8251,
+  "per_class": {
+    "surprise": 0.8528,
+    "fear": 0.7518,
+    "disgust": 0.6602,
+    "happiness": 0.9512,
+    "sadness": 0.8665,
+    "anger": 0.8385,
+    "neutral": 0.8547
+  }
+}

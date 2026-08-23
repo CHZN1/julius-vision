@@ -1,0 +1,20 @@
+{
+  "tag": "RAFDB_96_fromFERPlus",
+  "img_size": 96,
+  "source_model": "FERPlus_soft_96.keras",
+  "n_test": 3068,
+  "epochs_head": 31,
+  "epochs_ft": 24,
+  "test_accuracy": 0.7598,
+  "test_macro_f1": 0.6722,
+  "test_weighted_f1": 0.7625,
+  "test_f1_per_class": {
+    "surprise": 0.7227,
+    "fear": 0.5417,
+    "disgust": 0.5,
+    "happiness": 0.8921,
+    "sadness": 0.7227,
+    "anger": 0.6231,
+    "neutral": 0.7031
+  }
+}

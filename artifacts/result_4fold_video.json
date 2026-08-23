@@ -1,0 +1,12 @@
+{
+  "frozen": {
+    "acc": 0.5687,
+    "macro_f1": 0.5567
+  },
+  "video_ft": {
+    "acc": 0.5569,
+    "macro_f1": 0.5447
+  },
+  "class_weights": false,
+  "label_smoothing": 0.15
+}

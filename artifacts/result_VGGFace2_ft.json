@@ -1,0 +1,15 @@
+{
+  "tag": "VGGFace2_ft",
+  "device": "mps",
+  "test_accuracy": 0.8722,
+  "test_macro_f1": 0.8084,
+  "per_class": {
+    "surprise": 0.8576,
+    "fear": 0.695,
+    "disgust": 0.6306,
+    "happiness": 0.9484,
+    "sadness": 0.8641,
+    "anger": 0.8224,
+    "neutral": 0.8407
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "n_before": 35887,
+  "n_after": 33976,
+  "n_removed": 1911,
+  "pct_removed": 5.33,
+  "ledger": [
+    {
+      "step": "A. blank/near-constant",
+      "removed": 13,
+      "remaining": 35874,
+      "rationale": "no facial information; pure noise for the optimizer"
+    },
+    {
+      "step": "B. contradictory labels",
+      "removed": 148,
+      "remaining": 35726,
+      "rationale": "same image, different label; ground truth unrecoverable"
+    },
+    {
+      "step": "C. leaked train copies",
+      "removed": 649,
+      "remaining": 35077,
+      "rationale": "image also present in a test split; would inflate test accuracy"
+    },
+    {
+      "step": "D. PublicTest/PrivateTest overlap",
+      "removed": 43,
+      "remaining": 35034,
+      "rationale": "validation and final test must not share images"
+    },
+    {
+      "step": "E. within-split duplicates",
+      "removed": 1058,
+      "remaining": 33976,
+      "rationale": "repeated images silently reweight the loss"
+    }
+  ],
+  "verification": {
+    "duplicate_hashes_remaining": 0,
+    "hashes_spanning_splits": 0,
+    "conflicting_labels": 0,
+    "near_constant": 0
+  },
+  "split_counts": {
+    "Training": 26911,
+    "PrivateTest": 3557,
+    "PublicTest": 3508
+  },
+  "class_counts": {
+    "happy": 8794,
+    "neutral": 6045,
+    "sad": 5912,
+    "fear": 4802,
+    "angry": 4717,
+    "surprise": 3248,
+    "disgust": 458
+  },
+  "class_weight": {
+    "0": 1.0181,
+    "1": 10.9841,
+    "2": 1.0125,
+    "3": 0.5469,
+    "4": 0.822,
+    "5": 1.5628,
+    "6": 0.7974
+  }
+}

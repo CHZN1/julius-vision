@@ -1,0 +1,5 @@
+tag,params,epochs_run,val_accuracy,val_macro_f1,test_accuracy,test_macro_f1,test_weighted_f1,test_f1_per_class
+A_baseline,1245671,14,0.5405,0.4686,0.5522,0.4539,0.5345,"{'angry': 0.4485, 'disgust': 0.0357, 'fear': 0.3153, 'happy': 0.7811, 'sad': 0.3636, 'surprise': 0.6922, 'neutral': 0.5407}"
+B_regularized,1246631,60,0.5992,0.5267,0.6154,0.5372,0.607,"{'angry': 0.5428, 'disgust': 0.1967, 'fear': 0.3884, 'happy': 0.8362, 'sad': 0.4952, 'surprise': 0.7066, 'neutral': 0.5942}"
+C_deep,1242919,45,0.6303,0.5758,0.6382,0.5785,0.6369,"{'angry': 0.5711, 'disgust': 0.32, 'fear': 0.4231, 'happy': 0.8673, 'sad': 0.5084, 'surprise': 0.7259, 'neutral': 0.6339}"
+D_deep_sqrtw,1242919,60,0.6311,0.5967,0.6359,0.5949,0.633,"{'angry': 0.5545, 'disgust': 0.4677, 'fear': 0.4381, 'happy': 0.8619, 'sad': 0.4656, 'surprise': 0.7366, 'neutral': 0.6401}"

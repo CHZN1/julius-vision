@@ -1,0 +1,15 @@
+{
+  "tag": "AffNet_RAFDB",
+  "n_train": 29762,
+  "acc": 0.8739,
+  "macro_f1": 0.811,
+  "per_class": {
+    "surprise": 0.8665,
+    "fear": 0.7,
+    "disgust": 0.6727,
+    "happiness": 0.9468,
+    "sadness": 0.8487,
+    "anger": 0.7848,
+    "neutral": 0.8573
+  }
+}

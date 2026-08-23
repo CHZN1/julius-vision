@@ -1,0 +1,42 @@
+{
+  "source": "kaggle dataset mirror: deadskull7/fer2013",
+  "csv_path": "data/fer2013.csv",
+  "n_images": 35887,
+  "image_shape": [
+    48,
+    48
+  ],
+  "n_classes": 7,
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "sad",
+    "surprise",
+    "neutral"
+  ],
+  "split_counts": {
+    "Training": 28709,
+    "PublicTest": 3589,
+    "PrivateTest": 3589
+  },
+  "class_counts": {
+    "happy": 8989,
+    "neutral": 6198,
+    "sad": 6077,
+    "fear": 5121,
+    "angry": 4953,
+    "surprise": 4002,
+    "disgust": 547
+  },
+  "imbalance_ratio": 16.43,
+  "majority_baseline": 0.2505,
+  "random_baseline": 0.1429,
+  "integrity": {
+    "near_constant_images": 13,
+    "duplicate_rows": 1853,
+    "hashes_spanning_splits": 557,
+    "hashes_with_conflicting_labels": 57
+  }
+}

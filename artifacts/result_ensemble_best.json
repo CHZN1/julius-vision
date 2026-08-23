@@ -1,0 +1,20 @@
+{
+  "scheme": "geometric",
+  "acc": 0.8184,
+  "macro_f1": 0.7438,
+  "members": [
+    "RAFDB_112",
+    "RAFDB_96_fromFERPlus",
+    "Merged_96_gray",
+    "ArcFace_mlp"
+  ],
+  "per_class": {
+    "surprise": 0.7757,
+    "fear": 0.6471,
+    "disgust": 0.5535,
+    "happiness": 0.926,
+    "sadness": 0.7855,
+    "anger": 0.7472,
+    "neutral": 0.7717
+  }
+}

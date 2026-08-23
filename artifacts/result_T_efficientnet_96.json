@@ -1,0 +1,20 @@
+{
+  "tag": "T_efficientnet_96",
+  "backbone": "efficientnet",
+  "img_size": 96,
+  "params": 4380074,
+  "epochs_head": 15,
+  "epochs_ft": 40,
+  "test_accuracy": 0.6095,
+  "test_macro_f1": 0.5714,
+  "test_weighted_f1": 0.5989,
+  "test_f1_per_class": {
+    "angry": 0.5053,
+    "disgust": 0.5217,
+    "fear": 0.3724,
+    "happy": 0.8203,
+    "sad": 0.4869,
+    "surprise": 0.691,
+    "neutral": 0.6022
+  }
+}

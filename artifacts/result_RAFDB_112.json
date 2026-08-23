@@ -1,0 +1,19 @@
+{
+  "tag": "RAFDB_112",
+  "img_size": 112,
+  "n_test": 3068,
+  "epochs_head": 13,
+  "epochs_ft": 33,
+  "test_accuracy": 0.7565,
+  "test_macro_f1": 0.6586,
+  "test_weighted_f1": 0.7584,
+  "test_f1_per_class": {
+    "surprise": 0.7215,
+    "fear": 0.5195,
+    "disgust": 0.4309,
+    "happiness": 0.893,
+    "sadness": 0.7121,
+    "anger": 0.6235,
+    "neutral": 0.7096
+  }
+}

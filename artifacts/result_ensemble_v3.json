@@ -1,0 +1,17 @@
+{
+  "members": [
+    "VGGFace2_ft",
+    "AffNet_RAFDB"
+  ],
+  "acc": 0.8889,
+  "macro_f1": 0.838,
+  "per_class": {
+    "surprise": 0.8841,
+    "fear": 0.7647,
+    "disgust": 0.6855,
+    "happiness": 0.9544,
+    "sadness": 0.8705,
+    "anger": 0.8444,
+    "neutral": 0.8625
+  }
+}

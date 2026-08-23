@@ -1,0 +1,20 @@
+{
+  "tag": "Merged_96_gray",
+  "grayscale_raf": true,
+  "n_test": 3068,
+  "n_train": 34382,
+  "epochs_head": 57,
+  "epochs_ft": 45,
+  "test_accuracy": 0.7471,
+  "test_macro_f1": 0.6695,
+  "test_weighted_f1": 0.7543,
+  "test_f1_per_class": {
+    "surprise": 0.7282,
+    "fear": 0.6014,
+    "disgust": 0.4423,
+    "happiness": 0.8899,
+    "sadness": 0.7087,
+    "anger": 0.6346,
+    "neutral": 0.6815
+  }
+}

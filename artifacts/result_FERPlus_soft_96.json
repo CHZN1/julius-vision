@@ -1,0 +1,19 @@
+{
+  "tag": "FERPlus_soft_96",
+  "soft_labels": true,
+  "n_test": 3340,
+  "epochs_head": 40,
+  "epochs_ft": 76,
+  "test_accuracy": 0.8278,
+  "test_macro_f1": 0.7307,
+  "test_weighted_f1": 0.8251,
+  "test_f1_per_class": {
+    "neutral": 0.8463,
+    "happiness": 0.9241,
+    "surprise": 0.8289,
+    "sadness": 0.6675,
+    "anger": 0.7789,
+    "disgust": 0.625,
+    "fear": 0.4444
+  }
+}

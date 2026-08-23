@@ -1,0 +1,20 @@
+{
+  "tag": "T_resnet_128",
+  "backbone": "resnet",
+  "img_size": 128,
+  "params": 24114823,
+  "epochs_head": 40,
+  "epochs_ft": 17,
+  "test_accuracy": 0.6559,
+  "test_macro_f1": 0.6395,
+  "test_weighted_f1": 0.6545,
+  "test_f1_per_class": {
+    "angry": 0.5717,
+    "disgust": 0.6783,
+    "fear": 0.4324,
+    "happy": 0.8762,
+    "sad": 0.5382,
+    "surprise": 0.7257,
+    "neutral": 0.6539
+  }
+}
