@@ -1,6 +1,6 @@
-# fer2013-emotion-cnn
+# Julius Vision
 
-Facial-expression classification on FER2013: a data-cleaning pass, four small CNNs trained from scratch, and a set of transfer-learning experiments. It started as the emotion-recognition side project of [Julius](https://github.com/CHZN1/julius-assistant), a voice assistant, and is now standalone.
+The vision module for [Julius](https://github.com/CHZN1/julius-assistant), a voice assistant for macOS. Today it ships facial-expression recognition: CNNs trained on FER2013 and FER+ (named here only as training data), with the data audit, models, evaluation and figures. It is also the home for Julius's future senses: vision on demand, gestures, presence detection, fall detection and camera-based heart rate. None of those exist yet.
 
 ## What is here
 
@@ -38,7 +38,7 @@ Class weighting trades about 0.2 points of accuracy for a much better rare class
 
 ## Using it with Julius (experimental)
 
-Julius ships with vision off and a hook: set `JULIUS_VISION_MODULE` to a module exposing `Perception` and `describe`. `emotion/julius_perception.py` is such a module (camera thread, face detection, emotion smoothing and "check in" gating). It needs the trained weights, `facenet-pytorch`, `insightface`, `opencv-python`, `torch`, `torchvision`, and an enrolled identity embedding that you create yourself. It has not been re-tested since the split.
+Julius ships with vision off and a hook: put this repository on `PYTHONPATH` and set `JULIUS_VISION_MODULE=emotion.julius_perception`, a module exposing `Perception` and `describe`. `emotion/julius_perception.py` is that module (camera thread, face detection, emotion smoothing and "check in" gating). It needs the trained weights, `facenet-pytorch`, `insightface`, `opencv-python`, `torch`, `torchvision`, and an enrolled identity embedding that you create yourself. It has not been re-tested since the split.
 
 ## License
 
