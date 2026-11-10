@@ -8,7 +8,7 @@ Facial-expression classification on FER2013: a data-cleaning pass, four small CN
 |---|---|
 | `EMOTE_DATA_COLLECTION_STEP_1.ipynb` | data audit and cleaning |
 | `EMOTE_DATA_COLLECTION_ANALYSIS.ipynb` | models, evaluation, error analysis (outputs kept) |
-| `figures/` | 15 figures: class balance, mean faces, duplicates, training curves, confusion matrices, per-class F1, label agreement, annotator confidence |
+| `figures/` | 14 figures: class balance, mean faces, duplicates, training curves, confusion matrices, per-class F1, label agreement, annotator confidence |
 | `artifacts/` | per-run results (`result_*.json`), training histories, cleaning ledger, class maps. Large weights and the FER+ label file are not in git (see below) |
 | `emotion/` | experimental live-camera scripts (`webcam_live.py`, `julius_perception.py`) and profiling helpers |
 
@@ -34,7 +34,7 @@ Class weighting trades about 0.2 points of accuracy for a much better rare class
 - Model weights (`*.keras`, about 15 MB each) are too large for git history; they are meant to be attached to a GitHub release (not uploaded yet).
 - `artifacts/fer2013new.csv` (FER+ labels) and the FER2013, RAF-DB, CREMA-D and RAVDESS data are third-party; download them from their sources.
 - `artifacts/*manifest*.csv` list file names from the audio and face datasets with local paths replaced by `/path/to`.
-- No photographs of real people other than the public datasets' own examples in the notebooks.
+- `models/face_detection_yunet_2023mar.onnx` is the OpenCV Zoo YuNet face detector (MIT licence), used by `emotion/webcam_live.py`.
 
 ## Using it with Julius (experimental)
 
