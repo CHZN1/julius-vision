@@ -31,7 +31,7 @@ Class weighting trades about 0.2 points of accuracy for a much better rare class
 
 ## Not included
 
-- Model weights (`*.keras`, about 15 MB each) are too large for git history; they are meant to be attached to a GitHub release (not uploaded yet).
+- Model weights (`*.keras`, about 15 MB each) are too large for git history; they are attached to the [v0.1.0 release](https://github.com/CHZN1/julius-vision/releases/tag/v0.1.0).
 - `artifacts/fer2013new.csv` (FER+ labels) and the FER2013, RAF-DB, CREMA-D and RAVDESS data are third-party; download them from their sources.
 - `artifacts/*manifest*.csv` list file names from the audio and face datasets with local paths replaced by `/path/to`.
 - `models/face_detection_yunet_2023mar.onnx` is the OpenCV Zoo YuNet face detector (MIT licence), used by `emotion/webcam_live.py`.
